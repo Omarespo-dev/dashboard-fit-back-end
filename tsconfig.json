@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    // ========================
+    // File Layout
+    // ========================
+
+    "rootDir": "./src",        // Dove si trovano i file TypeScript
+    "outDir": "./dist",        // Dove TypeScript mette i file JS compilati
+
+    // ========================
+    // Environment Settings
+    // ========================
+
+    "module": "ESNext",      // Sistema dei moduli per Node.js
+    "target": "ES2020",        // Versione JS generata, compatibile con Node moderno
+    "esModuleInterop": true,   // Permette import più semplice da librerie CommonJS
+
+    // ========================
+    // Other Outputs
+    // ========================
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // ========================
+    // Stricter Typechecking Options
+    // ========================
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // ========================
+    // Recommended Options
+    // ========================
+
+    "strict": true,            // Attiva controlli di tipizzazione più rigorosi
+    "jsx": "react-jsx",        // Abilita JSX moderno per React 17+
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  }
+}
