@@ -1,0 +1,37 @@
+ # 🏋️‍♂️ FitTrack – Backend API
+
+FitTrack è un sistema backend progettato per applicazioni fitness focalizzate sul monitoraggio di alimentazione, allenamenti e progresso settimanale.  
+Le API gestiscono utenti, workout, pasti e analisi delle attività, offrendo una base solida e scalabile per applicazioni web o mobile.  
+
+Il servizio è sviluppato con **Node.js**, **TypeScript** e **Fastify**, con l’integrazione di **Supabase** come database e gestione dell’autenticazione.
+
+---
+
+## 🚀 Caratteristiche principali
+
+- Gestione utenti e autenticazione
+- Registrazione pasti, calorie e macronutrienti
+- Tracking degli allenamenti e attività giornaliere
+- Dashboard settimanale con statistiche
+- Architettura modulare (routes, controllers, services)
+- Integrazione con Supabase Postgres + Auth
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend**
+- Node.js 18+
+- TypeScript
+- Fastify
+- Supabase (PostgreSQL + Auth)
+- dotenv
+
+**Standard di progetto**
+- Struttura modulare
+- Tipizzazione avanzata
+- Validazione degli input
+- Sicurezza tramite RLS (Row-Level Security)
+
+---
+
