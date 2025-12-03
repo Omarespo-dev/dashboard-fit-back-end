@@ -3,7 +3,7 @@
 FitTrack è un sistema backend progettato per applicazioni fitness focalizzate sul monitoraggio di alimentazione, allenamenti e progresso settimanale.
 Le API gestiscono utenti, workout, pasti e analisi delle attività, offrendo una base solida e scalabile per applicazioni web o mobile.
 
-Il servizio è sviluppato con **Node.js**, **TypeScript** e **Fastify**, con l’integrazione di **Supabase** come database e gestione dell’autenticazione.
+Il servizio è sviluppato con **Node.js**, **TypeScript** e **Express**, con l’integrazione di **Supabase** come database e gestione dell’autenticazione.
 
 ---
 
@@ -24,7 +24,7 @@ Il servizio è sviluppato con **Node.js**, **TypeScript** e **Fastify**, con l�
 
 * Node.js 18+
 * TypeScript
-* Fastify
+* Express
 * Supabase (PostgreSQL + Auth)
 * dotenv
 
